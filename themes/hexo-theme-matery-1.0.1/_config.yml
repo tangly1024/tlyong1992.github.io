@@ -226,8 +226,8 @@ gitment:
   owner: tlyong1992
   repo: tlyong1992.github.io
   oauth:
-    clientId:
-    clientSecret:
+    clientId: 28b50156e2d0fbf726fe
+    clientSecret: 4ae0df55623d71ab4db804bb1c48584c82fa15ec
 
 # disqus config, default disabled
 # Disqus评论模块的配置，默认为不激活
