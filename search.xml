@@ -5,8 +5,8 @@
     
     <entry>
       <title>我的网站！</title>
-      <link href="/2019/04/16/my-website/"/>
-      <url>/2019/04/16/my-website/</url>
+      <link href="/blog/2019/04/16/my-website/"/>
+      <url>/blog/2019/04/16/my-website/</url>
       
         <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>以前用的是wordpress，结合php，mysql搭建个人博客，最后无疾而终。</p><ul><li>找不到喜欢的主题样式，面对php的页面也无从下手</li><li>装了一大堆插件、邮件通知、安全防护之类的，徒增服务器维护成本</li><li>服务器的钱、域名的钱需要一笔支出</li></ul><p>基于以上原因，结合github这个神奇的网站，才有了现在这个博客。</p><p>hexo + hexo-theme-matery + github-page + git + gittalk + vscode 就能搭建这个网站，于我来说，很好了解决上述三个问题。<br>好看的样式主题很多，毕竟这个圈子里的前端大神很多O(∩_∩)O~~，不用担心服务器维护和硬件、域名的资费。。开心</p><p>并且这种基于纯markdown，使用本地IDE编写博客的形式更符合像我这样的程序员的习惯。</p><h2 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h2><p>可以Google一下关键词查找攻略，这里不再赘述</p><blockquote><p>Hexo 搭建 博客</p></blockquote><p>有需要的话，可以在底部留言给我~</p>]]></content>
       
@@ -32,8 +32,8 @@
     
     <entry>
       <title>创业从0到1！</title>
-      <link href="/2019/04/16/start-an-undertaking/"/>
-      <url>/2019/04/16/start-an-undertaking/</url>
+      <link href="/blog/2019/04/16/start-an-undertaking/"/>
+      <url>/blog/2019/04/16/start-an-undertaking/</url>
       
         <content type="html"><![CDATA[<h1 id="关于创业"><a href="#关于创业" class="headerlink" title="关于创业"></a>关于创业</h1><h2 id="现状"><a href="#现状" class="headerlink" title="现状"></a>现状</h2><p>目前我在一家startup上班，平时做服务端JAVA开发，服务器部署、运维，数据库设计，接口设计，后台管理页面开发(基于Vue前后端分离)，同时涉猎一些产品设计相关，偶尔用用axure，操心一下app开发的交互逻辑和动效。</p><p>目前公司算是在曲折前进，不奢求创业就成功，与合伙人们这次创业的失败率很可能高达99.9999%，前途可谓一片迷茫。</p><h2 id="变化"><a href="#变化" class="headerlink" title="变化"></a>变化</h2><p>好在从原先的公司跳出来，加入一个小团队从零开始奋斗的这段时间，我的工作能力思考方式都有了很大的转变。原先的公司，从市场、运营、产品、设计、开发、测试、运维都有相应的专业团队在负责。甚至不同的事业部和事业部之间的功能拼接都有专门的对接团队。</p><p>自己要做的就是每天清理自己的bug，完善自己的功能，把代码写得越来越清晰就可以了。然后就是提交日报、周报、收发邮件、经费报销等等。都是既定事务的内容，所有应该做的事情早就写在了你的计划安排里。每天可谓是井井有条。</p><p>而现在，哪里需要就去哪里。成员配备并不齐全，我们只能在有限的资源下，做尽可能好、尽可能对的事情。工作强度要大于以前，但由于每件事情都有明确的目标，干起活来也是充满斗志的。</p><h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>初期做了很多错误的选择，导致资源极大的浪费，然后突然在网上看到这句话。</p><blockquote><p>“每个初创公司都应该在非常小的市场内起步。宁可过小也不能大，理由很简单：在一个小市场里占主导地位比在大市场里要容易得多。如果你认为自己起步的市场可能太大，那就一定是太大了。” “比起千方百计地引起上百万散居各地的人的注意，赢得数千个确实需要我们产品的人的青睐要容易得多。” “一个初创企业完美的目标市场是特定的一小群人，而且几乎没有其他竞争者与你竞争。” “最成功的的公司会先在一个特定的利基市场里占…</p></blockquote><p>是否应该调整一下自己的产品思路，避开竞争，找到自己擅长的小市场。</p><h2 id="展望"><a href="#展望" class="headerlink" title="展望"></a>展望</h2><p>打工是不可能一辈子打工的，创业也不一定是要做的多大多强。但我要养成这种“发现问题、解决问题、创造价值”的思想，将其贯穿在今后的人生道路上。</p><p>说不定，我就找到自己的价值了呢。</p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>写博客的好处是，通过自己的反思、总结、并通过文字记载的方式，这样的经验收获会更深一些吧~</p>]]></content>
       
@@ -57,8 +57,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2019/04/16/hello-world/"/>
-      <url>/2019/04/16/hello-world/</url>
+      <link href="/blog/2019/04/16/hello-world/"/>
+      <url>/blog/2019/04/16/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
