@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-16T14:37:35.346Z</updated>
+  <updated>2019-04-16T15:47:41.019Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我的网站！</title>
+    <link href="http://yoursite.com/2019/04/16/my-website/"/>
+    <id>http://yoursite.com/2019/04/16/my-website/</id>
+    <published>2019-04-16T15:47:35.000Z</published>
+    <updated>2019-04-16T15:47:41.019Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="个人" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA/"/>
+    
+    
+      <category term="新人" scheme="http://yoursite.com/tags/%E6%96%B0%E4%BA%BA/"/>
+    
+      <category term="网站" scheme="http://yoursite.com/tags/%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
     <title>创业从0到1！</title>
     <link href="http://yoursite.com/2019/04/16/start-an-undertaking/"/>
     <id>http://yoursite.com/2019/04/16/start-an-undertaking/</id>
     <published>2019-04-16T14:05:35.000Z</published>
-    <updated>2019-04-16T14:37:35.346Z</updated>
+    <updated>2019-04-16T15:47:49.937Z</updated>
     
     <summary type="html">
     
@@ -39,36 +67,6 @@
     
     
       <category term="创业" scheme="http://yoursite.com/tags/%E5%88%9B%E4%B8%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>自己的文章～～！</title>
-    <link href="http://yoursite.com/2019/04/16/test/"/>
-    <id>http://yoursite.com/2019/04/16/test/</id>
-    <published>2019-04-16T09:05:35.000Z</published>
-    <updated>2019-04-16T10:18:29.374Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;测试一下能不能更新&lt;/p&gt;
-&lt;h2 id=&quot;快速开始&quot;&gt;&lt;a href=&quot;#快速开始&quot; class=&quot;headerlink&quot; title=&quot;快速开始&quot;&gt;&lt;/a&gt;快速开始&lt;/h2&gt;&lt;p&gt;tlyong1992.github.io&lt;/p&gt;
-&lt;h3 id=&quot;创建Git项目&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="个人" scheme="http://yoursite.com/categories/%E4%B8%AA%E4%BA%BA/"/>
-    
-    
-      <category term="新人" scheme="http://yoursite.com/tags/%E6%96%B0%E4%BA%BA/"/>
-    
-      <category term="好玩" scheme="http://yoursite.com/tags/%E5%A5%BD%E7%8E%A9/"/>
     
   </entry>
   
