@@ -2,7 +2,7 @@
 title: 创业从0到1！
 date: 2019-04-16 22:05:35
 categories: 个人
-summary: 随便写写
+summary: 创业的思考
 tags:
     - 创业
 ---
