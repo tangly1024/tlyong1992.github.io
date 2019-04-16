@@ -222,9 +222,9 @@ gitalk:
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
 gitment:
-  enable: false
-  owner:
-  repo:
+  enable: true
+  owner: tlyong1992
+  repo: tlyong1992.github.io
   oauth:
     clientId:
     clientSecret:
@@ -233,7 +233,7 @@ gitment:
 # Disqus评论模块的配置，默认为不激活
 disqus:
   enable: false
-  shortname:
+  shortname: 
 
 # Livere comment configuration, the default is not activated
 # Livere 来必力评论模块的配置，默认为不激活
