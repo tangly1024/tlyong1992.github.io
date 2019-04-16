@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mockmain</title>
+  
+  <subtitle>唐哼哼的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-04-16T09:05:43.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>tangly</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第二篇文章～～！</title>
+    <link href="http://yoursite.com/2019/04/16/test/"/>
+    <id>http://yoursite.com/2019/04/16/test/</id>
+    <published>2019-04-16T09:05:35.000Z</published>
+    <updated>2019-04-16T09:05:43.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="新人" scheme="http://yoursite.com/tags/%E6%96%B0%E4%BA%BA/"/>
+    
+      <category term="好玩" scheme="http://yoursite.com/tags/%E5%A5%BD%E7%8E%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/04/16/hello-world/"/>
+    <id>http://yoursite.com/2019/04/16/hello-world/</id>
+    <published>2019-04-16T07:31:10.000Z</published>
+    <updated>2019-04-16T07:31:10.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
