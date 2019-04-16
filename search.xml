@@ -8,7 +8,7 @@
       <link href="/2019/04/16/test/"/>
       <url>/2019/04/16/test/</url>
       
-        <content type="html"><![CDATA[<p>测试一下能不能更新</p><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建Git项目"><a href="#创建Git项目" class="headerlink" title="创建Git项目"></a>创建Git项目</h3><p>git项目master分支用于存储博客源码</p><h3 id="创建本地hexo项目"><a href="#创建本地hexo项目" class="headerlink" title="创建本地hexo项目"></a>创建本地hexo项目</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span>$ hexo generate$ hexo deploy</code></pre>]]></content>
+        <content type="html"><![CDATA[<p>测试一下能不能更新</p><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><p>tlyong1992.github.io</p><h3 id="创建Git项目"><a href="#创建Git项目" class="headerlink" title="创建Git项目"></a>创建Git项目</h3><p>git项目master分支用于存储博客源码</p><h3 id="创建本地hexo项目"><a href="#创建本地hexo项目" class="headerlink" title="创建本地hexo项目"></a>创建本地hexo项目</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span>$ hexo generate$ hexo deploy</code></pre>]]></content>
       
       
       <categories>
