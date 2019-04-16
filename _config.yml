@@ -4,17 +4,20 @@
 
 # Site
 title: Mockmain
-subtitle: 唐哼哼的博客
+subtitle: Mockmain`s Blog
 description: 简单记录生活
-keywords: 唐哼哼
+keywords: 唐哼哼|Mockmain
 author: tangly
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+# url: http://yoursite.com
+# root: /
+# 为gitee修改配置
+url: https://tanlgy.gitee.io/blog/
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -74,10 +77,12 @@ theme: hexo-theme-matery-1.0.1
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/tlyong1992/tlyong1992.github.io.git
-  branch: master
-  message:
+  - type: git
+    repo: https://github.com/tlyong1992/tlyong1992.github.io.git
+    branch: master
+  - type: git
+    repo: https://gitee.com/tanlgy/tanlgy.git
+    branch: master
 
 # 关闭原生高亮
 highlight:
