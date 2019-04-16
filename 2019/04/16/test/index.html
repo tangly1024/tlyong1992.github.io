@@ -598,29 +598,29 @@ $ hexo deploy
     </div>
 
     
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
 
-    
-        <link rel="stylesheet" href="/libs/gitment/gitment-default.css">
-<link rel="stylesheet" href="/css/gitment.css">
-
-<div class="gitment-card card" data-aos="fade-up">
-    <div id="gitment-content" class="card-content"></div>
+<div class="card gitalk-card" data-aos="fade-up">
+    <div id="gitalk-container" class="card-content"></div>
 </div>
 
-<script src="/libs/gitment/gitment.js"></script>
+<script src="/libs/gitalk/gitalk.min.js"></script>
 <script>
-var gitment = new Gitment({
-    id: 'Tue Apr 16 2019 17:05:35 GMT+0800',
-    owner: 'tlyong1992',
-    repo: 'tlyong1992.github.io',
-    oauth: {
-        client_id: '28b50156e2d0fbf726fe',
-        client_secret: '4ae0df55623d71ab4db804bb1c48584c82fa15ec'
-    }
-});
+    let gitalk = new Gitalk({
+        clientID: '28b50156e2d0fbf726fe',
+        clientSecret: '4ae0df55623d71ab4db804bb1c48584c82fa15ec',
+        repo: 'tlyong1992.github.io',
+        owner: 'tlyong1992',
+        admin: "tlyong1992",
+        id: '2019-04-16T17-05-35',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
 
-gitment.render('gitment-content');
+    gitalk.render('gitalk-container');
 </script>
+    
+
     
 
     
