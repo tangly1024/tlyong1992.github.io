@@ -13,11 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url: http://yoursite.com
-# root: /
-# 为gitee修改配置
-url: https://tanlgy.gitee.io/blog/
-root: /blog
+url: http://yoursite.com
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -81,7 +78,7 @@ deploy:
     repo: https://github.com/tlyong1992/tlyong1992.github.io.git
     branch: master
   - type: git
-    repo: https://gitee.com/tanlgy/tanlgy.git
+    repo: https://gitee.com/tlyong1992/tlyong1992.git
     branch: master
 
 # 关闭原生高亮
