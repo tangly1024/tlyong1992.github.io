@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>网站的主题</title>
+      <link href="/2019/04/18/website-theme/"/>
+      <url>/2019/04/18/website-theme/</url>
+      
+        <content type="html"><![CDATA[<h1 id="关于主题"><a href="#关于主题" class="headerlink" title="关于主题"></a>关于主题</h1><h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>hexo-theme-matery<br>换成next</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的网站！</title>
       <link href="/2019/04/16/my-website/"/>
       <url>/2019/04/16/my-website/</url>
