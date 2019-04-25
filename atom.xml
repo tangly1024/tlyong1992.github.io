@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-18T04:12:55.044Z</updated>
+  <updated>2019-04-25T03:12:52.966Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2019/04/25/test/"/>
+    <id>http://yoursite.com/2019/04/25/test/</id>
+    <published>2019-04-25T03:12:52.000Z</published>
+    <updated>2019-04-25T03:12:52.966Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>用nodejs快速搭建简易web服务器</title>
+    <link href="http://yoursite.com/2019/04/25/nodejs-server/"/>
+    <id>http://yoursite.com/2019/04/25/nodejs-server/</id>
+    <published>2019-04-25T03:00:28.000Z</published>
+    <updated>2019-04-25T03:18:38.347Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h1&gt;&lt;p&gt;登录nodejs官网 &lt;a href=&quot;https://nodejs.org/zh-cn/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="开发" scheme="http://yoursite.com/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序搭建 mpvue</title>
+    <link href="http://yoursite.com/2019/04/18/mpvue/"/>
+    <id>http://yoursite.com/2019/04/18/mpvue/</id>
+    <published>2019-04-18T02:26:53.000Z</published>
+    <updated>2019-04-23T14:16:16.012Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;mpvue&quot;&gt;&lt;a href=&quot;#mpvue&quot; class=&quot;headerlink&quot; title=&quot;mpvue&quot;&gt;&lt;/a&gt;mpvue&lt;/h1&gt;&lt;p&gt;Vue.js in mini program&lt;br&gt;项目地址 &lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="开发" scheme="http://yoursite.com/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+      <category term="前端" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>网站的主题</title>
@@ -47,7 +113,7 @@
     <link href="http://yoursite.com/2019/04/16/my-website/"/>
     <id>http://yoursite.com/2019/04/16/my-website/</id>
     <published>2019-04-16T15:47:35.000Z</published>
-    <updated>2019-04-18T02:07:17.890Z</updated>
+    <updated>2019-04-20T13:47:16.857Z</updated>
     
     <summary type="html">
     
@@ -75,7 +141,7 @@
     <link href="http://yoursite.com/2019/04/16/start-an-undertaking/"/>
     <id>http://yoursite.com/2019/04/16/start-an-undertaking/</id>
     <published>2019-04-16T14:05:35.000Z</published>
-    <updated>2019-04-16T15:47:49.937Z</updated>
+    <updated>2019-04-20T13:47:16.858Z</updated>
     
     <summary type="html">
     

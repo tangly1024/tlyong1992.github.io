@@ -4,6 +4,69 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/2019/04/25/test/"/>
+      <url>/2019/04/25/test/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>用nodejs快速搭建简易web服务器</title>
+      <link href="/2019/04/25/nodejs-server/"/>
+      <url>/2019/04/25/nodejs-server/</url>
+      
+        <content type="html"><![CDATA[<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>登录nodejs官网 <a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/</a>，下载nodejs安装文件。</p><blockquote><p>//TODO nodejs 也可以通过nvm(node version manager)安装</p></blockquote><p>安装完成 ， 查看版本</p><pre class=" language-bash"><code class="language-bash">node -v</code></pre><h1 id="开始编写"><a href="#开始编写" class="headerlink" title="开始编写"></a>开始编写</h1><ul><li>新建文件夹 NodeServer</li><li>进入文件夹新建文件 server.js<br><code>`</code>javascript<br>var express = require(‘express’);<br>var app = express(); </li></ul><p>app.route(‘/‘).get(function(req,res){<br>  res.send(“哈哈哈哈你好啊”);<br>})</p><p>app.listen(3000, function () {<br>console.log(‘Listening on port, process.cwd(): ‘ + process.cwd() );<br>}); </p><p><code>`</code></p><h1 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h1><blockquote><p>因为server服务引用了<a href="https://expressjs.com/zh-cn/" target="_blank" rel="noopener">Express</a>框架 ,所以此处要安装express的依赖</p></blockquote><p>安装方法,使用nodejs自带的包版本管理 npm 指令</p><blockquote><p>npm install express</p></blockquote><p>安装完成后，用node运行当前文件</p><blockquote><p>node server.js</p></blockquote><p>访问路径</p><blockquote><p><a href="http://localhost:30000" target="_blank" rel="noopener">http://localhost:30000</a></p></blockquote><p><img src="./nodejs-server/nodejs-server-1.png" alt></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>微信小程序搭建 mpvue</title>
+      <link href="/2019/04/18/mpvue/"/>
+      <url>/2019/04/18/mpvue/</url>
+      
+        <content type="html"><![CDATA[<h1 id="mpvue"><a href="#mpvue" class="headerlink" title="mpvue"></a>mpvue</h1><p>Vue.js in mini program<br>项目地址 <a href="https://github.com/Meituan-Dianping/mpvue" target="_blank" rel="noopener">mpvue</a></p><blockquote><p>用 vue 写小程序，使用 mpvue 框架重写 WeUI。<br>mpvue 是由美团点评开源的，一个使用 Vue.js 开发小程序的前端框架，目前支持 微信小程序、百度智能小程序，头条小程序 和 支付宝小程序。 框架基于 Vue.js，修改了的运行时框架 runtime 和代码编译器 compiler 实现，使其可运行在小程序环境中，从而为小程序开发引入了 Vue.js 开发体验。</p></blockquote><h2 id="主要特性"><a href="#主要特性" class="headerlink" title="主要特性"></a>主要特性</h2><p>使用 <code>mpvue</code> 开发小程序，你将在小程序技术体系的基础上获取到这样一些能力：</p><ul><li>彻底的组件化开发能力：提高代码复用性</li><li>完整的 <code>Vue.js</code> 开发体验</li><li>方便的 <code>Vuex</code> 数据管理方案：方便构建复杂应 用</li><li>快捷的 <code>webpack</code> 构建机制：自定义构建策略、开发阶段 hotReload</li><li>支持使用 npm 外部依赖</li><li>使用 <code>Vue.js</code> 命令行工具 vue-cli 快速初始化项目</li><li>H5 代码转换编译成小程序目标代码的能力</li></ul><h1 id="项目初始化"><a href="#项目初始化" class="headerlink" title="项目初始化"></a>项目初始化</h1><p>注：如果没有安装node环境的请先去网上下载node.js下来安装，安装后默认安装npm了</p><ul><li><p>到你要建项目的目录下打开cmd窗口（快捷方法：打开到目录后按住键盘shift，然后点击鼠标右键选择在此处打开powershell窗口即可）</p></li><li><p>npm默认从外网下载包，可能会比较慢，可以换成国内的下载地址，如下</p></li></ul><blockquote><p>npm set registry <a href="https://registry.npm.taobao.org/" target="_blank" rel="noopener">https://registry.npm.taobao.org/</a><br>这样就换成国内的淘宝镜像下载了</p></blockquote><blockquote><p>npm install -g vue-cli<br>全局安装vue-cli，vue的官方脚手架</p></blockquote><blockquote><p>npm install -g webpack<br>安装webpack打包管理</p></blockquote><blockquote><p>npm install -g vue<br>全局安装vue框架</p></blockquote><ul><li>安装完上面的必须组件后，我们就进去正题了，初始化mpvue框架<blockquote><p>vue init mpvue/mpvue-quickstart my-project</p></blockquote></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>网站的主题</title>
       <link href="/2019/04/18/website-theme/"/>
       <url>/2019/04/18/website-theme/</url>
@@ -33,7 +96,7 @@
       <link href="/2019/04/16/my-website/"/>
       <url>/2019/04/16/my-website/</url>
       
-        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>以前用的是wordpress，结合php，mysql搭建个人博客，最后无疾而终。</p><ul><li>找不到喜欢的主题样式，面对php的页面也无从下手</li><li>装了一大堆插件、邮件通知、安全防护之类的，徒增服务器维护成本</li><li>服务器的钱、域名的钱需要一笔支出</li></ul><p>基于以上原因，结合github这个神奇的网站，才有了现在这个博客。</p><p>hexo + hexo-theme-matery + github-page + git + gittalk + vscode 就能搭建这个网站，于我来说，很好了解决上述三个问题。<br>好看的样式主题很多，毕竟这个圈子里的前端大神很多O(∩_∩)O~~，不用担心服务器维护和硬件、域名的资费。。开心</p><p>并且这种基于纯markdown，使用本地IDE编写博客的形式更符合像我这样的程序员的习惯。</p><h2 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h2><p>可以Google一下关键词查找攻略，这里不再赘述</p><blockquote><p>Hexo 搭建 博客</p></blockquote><p>有需要的话，可以在底部留言给我~</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>以前用的是wordpress，结合php，mysql搭建个人博客，最后无疾而终。</p><ul><li>找不到喜欢的主题样式，面对php的页面也无从下手</li><li>装了一大堆插件、邮件通知、安全防护之类的，徒增服务器维护成本</li><li>服务器的钱、域名的钱需要一笔支出</li></ul><p>基于以上原因，结合github这个神奇的网站，才有了现在这个博客。</p><p>hexo + github-page + git + gittalk + vscode 就能搭建这个网站，于我来说，很好了解决上述三个问题。<br>好看的样式主题很多，毕竟这个圈子里的前端大神很多O(∩_∩)O~~，不用担心服务器维护和硬件、域名的资费。。开心</p><p>并且这种基于纯markdown，使用本地IDE编写博客的形式更符合像我这样的程序员的习惯。</p><h2 id="搭建步骤"><a href="#搭建步骤" class="headerlink" title="搭建步骤"></a>搭建步骤</h2><p>可以Google一下关键词查找攻略，这里不再赘述</p><blockquote><p>Hexo 搭建 博客</p></blockquote><p>有需要的话，可以在底部留言给我~</p>]]></content>
       
       
       <categories>
