@@ -18,7 +18,7 @@ tags:
 
 基于以上原因，结合github这个神奇的网站，才有了现在这个博客。
 
-hexo + hexo-theme-matery + github-page + git + gittalk + vscode 就能搭建这个网站，于我来说，很好了解决上述三个问题。
+hexo + github-page + git + gittalk + vscode 就能搭建这个网站，于我来说，很好了解决上述三个问题。
 好看的样式主题很多，毕竟这个圈子里的前端大神很多O(∩_∩)O~~，不用担心服务器维护和硬件、域名的资费。。开心
 
 并且这种基于纯markdown，使用本地IDE编写博客的形式更符合像我这样的程序员的习惯。

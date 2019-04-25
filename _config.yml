@@ -8,7 +8,7 @@ subtitle: Mockmain`s Blog
 description: 简单记录生活
 keywords: 唐哼哼|Mockmain
 author: tangly
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true # 文章附件
 relative_link: false
 future: true
 
@@ -68,8 +68,16 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: landscape
-theme: hexo-theme-matery-1.0.1
+# theme: landscape
+# theme: hexo-theme-matery-1.0.1
+theme: next
+
+# 第三方搜索
+# algolia:
+#  applicationID: 'VMRTZ7LY4K'
+#  apiKey: '9f13f329a8ddf6a4938466191ff3c1d1'
+#  indexName: 'mockmain'
+#  chunkSize: 5000
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

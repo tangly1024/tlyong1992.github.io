@@ -315,6 +315,7 @@ googleAnalytics:
 #     gitalk: /libs/gitalk/gitalk.min.js
 #     jqcloud: /libs/jqcloud/jqcloud-1.0.4.min.js
 #     tocbot: /libs/tocbot/tocbot.min.js
+#     改用CDN加快加载速度
 libs:
   css:
     fontAwesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css

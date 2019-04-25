@@ -47,4 +47,4 @@ console.log('Listening on port, process.cwd(): ' + process.cwd() );
 访问路径
 > http://localhost:30000
 
-![](nodejs-server-1.png)
+![](../uploads/nodejs-server/nodejs-server-1.png)
