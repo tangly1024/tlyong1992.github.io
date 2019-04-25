@@ -81,20 +81,20 @@
 
 
 
-<meta name="description" content="安装登录nodejs官网 https://nodejs.org/zh-cn/，下载nodejs安装文件。  //TODO nodejs 也可以通过nvm(node version manager)安装  安装完成 ， 查看版本 node -v  开始编写 新建文件夹 NodeServer 进入文件夹新建文件 server.js`javascriptvar express = require(‘ex">
+<meta name="description" content="安装登录nodejs官网 https://nodejs.org/zh-cn/，下载nodejs安装文件。  //TODO nodejs 也可以通过nvm(node version manager)安装  安装完成 ， 查看版本 node -v  开始编写 新建文件夹 NodeServer 进入文件夹新建文件 server.js  var express = require(&apos;express&apos;);">
 <meta name="keywords" content="前端">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用nodejs快速搭建简易web服务器">
 <meta property="og:url" content="http://yoursite.com/2019/04/25/nodejs-server/index.html">
 <meta property="og:site_name" content="Mockmain">
-<meta property="og:description" content="安装登录nodejs官网 https://nodejs.org/zh-cn/，下载nodejs安装文件。  //TODO nodejs 也可以通过nvm(node version manager)安装  安装完成 ， 查看版本 node -v  开始编写 新建文件夹 NodeServer 进入文件夹新建文件 server.js`javascriptvar express = require(‘ex">
+<meta property="og:description" content="安装登录nodejs官网 https://nodejs.org/zh-cn/，下载nodejs安装文件。  //TODO nodejs 也可以通过nvm(node version manager)安装  安装完成 ， 查看版本 node -v  开始编写 新建文件夹 NodeServer 进入文件夹新建文件 server.js  var express = require(&apos;express&apos;);">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2019/04/25/nodejs-server/nodejs-server/nodejs-server-1.png">
-<meta property="og:updated_time" content="2019-04-25T03:18:38.347Z">
+<meta property="og:image" content="http://yoursite.com/2019/04/25/nodejs-server/nodejs-server-1.png">
+<meta property="og:updated_time" content="2019-04-25T03:22:03.289Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用nodejs快速搭建简易web服务器">
-<meta name="twitter:description" content="安装登录nodejs官网 https://nodejs.org/zh-cn/，下载nodejs安装文件。  //TODO nodejs 也可以通过nvm(node version manager)安装  安装完成 ， 查看版本 node -v  开始编写 新建文件夹 NodeServer 进入文件夹新建文件 server.js`javascriptvar express = require(‘ex">
-<meta name="twitter:image" content="http://yoursite.com/2019/04/25/nodejs-server/nodejs-server/nodejs-server-1.png">
+<meta name="twitter:description" content="安装登录nodejs官网 https://nodejs.org/zh-cn/，下载nodejs安装文件。  //TODO nodejs 也可以通过nvm(node version manager)安装  安装完成 ， 查看版本 node -v  开始编写 新建文件夹 NodeServer 进入文件夹新建文件 server.js  var express = require(&apos;express&apos;);">
+<meta name="twitter:image" content="http://yoursite.com/2019/04/25/nodejs-server/nodejs-server-1.png">
 
 
 
@@ -448,11 +448,20 @@
 </code></pre>
 <h1 id="开始编写"><a href="#开始编写" class="headerlink" title="开始编写"></a>开始编写</h1><ul>
 <li>新建文件夹 NodeServer</li>
-<li>进入文件夹新建文件 server.js<br><code>`</code>javascript<br>var express = require(‘express’);<br>var app = express(); </li>
+<li>进入文件夹新建文件 server.js</li>
 </ul>
-<p>app.route(‘/‘).get(function(req,res){<br>  res.send(“哈哈哈哈你好啊”);<br>})</p>
-<p>app.listen(3000, function () {<br>console.log(‘Listening on port, process.cwd(): ‘ + process.cwd() );<br>}); </p>
-<p><code>`</code></p>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">var</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+
+app<span class="token punctuation">.</span><span class="token function">route</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span>res<span class="token punctuation">)</span><span class="token punctuation">{</span>
+  res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">"哈哈哈哈你好啊"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">3000</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> 
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Listening on port, process.cwd(): '</span> <span class="token operator">+</span> process<span class="token punctuation">.</span><span class="token function">cwd</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+
+</code></pre>
 <h1 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h1><blockquote>
 <p>因为server服务引用了<a href="https://expressjs.com/zh-cn/" target="_blank" rel="noopener">Express</a>框架 ,所以此处要安装express的依赖</p>
 </blockquote>
@@ -468,7 +477,7 @@
 <blockquote>
 <p><a href="http://localhost:30000" target="_blank" rel="noopener">http://localhost:30000</a></p>
 </blockquote>
-<p><img src="./nodejs-server/nodejs-server-1.png" alt></p>
+<p><img src="nodejs-server-1.png" alt></p>
 
       
     </div>
@@ -508,10 +517,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/04/25/test/" rel="prev" title="test">
-                test <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -590,7 +595,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
