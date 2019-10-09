@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Mockmain</title>
+  <title>唐哼哼</title>
   
-  <subtitle>Mockmain`s Blog</subtitle>
+  <subtitle>我要忘了你的眼睛</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>tangly</name>
+    <name>唐哼哼</name>
     
   </author>
   
