@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mockmain
-subtitle: Mockmain`s Blog
+title: 唐哼哼
+subtitle: 我要忘了你的眼睛
 description: 简单记录生活
-keywords: 唐哼哼|Mockmain
-author: tangly
-language: zh-Hans
+keywords: 唐哼哼|到此一游
+author: 唐哼哼
+# language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -70,7 +71,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 # theme: hexo-theme-matery-1.0.1
-theme: next
+# theme: next
+theme: fluid
 
 # 第三方搜索
 # algolia:
